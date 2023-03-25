@@ -44,24 +44,30 @@ First we decided to see which words appear the most through a "WordCloud" repres
 ### 5.1	WordCloud
 #### 5.1.1	Pfizer
 <p align="center">
-  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_pfizer.png?raw=true" alt="Sublime's custom image"/>
 </p>
-
-![alt text](https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_pfizer.png?raw=true)
-
 As we can see from the image, you can immediately notice the words that are the biggest correspond to the key words in our search. This is normal because they are all words that will be present in almost every tweet. As far as Pfizer is concerned, we can see the words 'million dose' which makes clear reference to the stocks that should be coming in Italy in this period. You can also notice the names of other vaccines: Astrazeneca, Moderna and j amp j (johnson & johnson). There are no words that stand out with a clearly positive or negative connoinois. It seems that we are talking above: to do the doses, other vaccines and the arrival of a stack of a million doses.
 I think it is important to note (blue arrow) how words have also been captured concerning the progress of the pandemic and vaccination situation in other states. First of all Isdraele which to date is the state first in vaccination and which has mainly used Pfizer vaccine.
 
 #### 5.1.2	Astrazeneca
+<p align="center">
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_astrazeneca.png?raw=true" alt="Sublime's custom image"/>
+</p>
 As for  Astrazeneca's wordcloud in addition to the words obviously present such as "Astrazeneca" and "vaccine" it can be noted that the size , and  consequently the importance of words, is sum up all the same. So as far as  Astrazeneca is concerned,  there are no possible main topics that we can immediately identify.
 In any case, a more in-depth analysis can find words that refer to negative topics such as: cases of thrombosis, side effects and legal action against the company. A few words concern the EMA and its approvals.
 #### 5.1.3	Moderna
+<p align="center">
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_moderna.png?raw=true" alt="Sublime's custom image"/>
+</p>
 From this image you can already see what are the most important words to which we can intuitively trace back to a positive or negative connoted.
 In particular, the words indicated by the red arrows have a negative meaning since they speak of death or diseases. Probably attributable to tweets that want to emphasize the possibility that with vaccination you can have very serious complications. 
 The green arrows, on the other hand, indicate words that are probably related to tweets of positive feeling.
 I think it is important to note (bluearrow), as in the case of Pfizer, how words have also been captured that also concern the progress of the pandemic and vaccination situation in other states. This was also expected because most of the time we talk about Pfizer and Moderna together (as we will see later on the word frequency analysis part).
 From the image you can think that there will be more tweets with a negative sentiment having managed to identify more words that lead us to think that they derive from negative tweets.
 #### 5.1.4	Sputnik
+<p align="center">
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_sputnik.png?raw=true" alt="Sublime's custom image"/>
+</p>
 From this word cloud I expected to see more words that have a negative feeling and mistrust, but surprisingly it didn't happen. In this image you can see the words "russia" and "putin" which are quite obvious given that the vaccine is Russian and the figure of Putin is linked. There are words like "comprare" that can suggest that many of the tweets are about buying this vaccine for to be able to have as many doses as possible.
 One of the words that stands out on the others is "san marino". In fact, this nation was the first in the Europe area that vaccinating its population with the Sputnik vaccine.
 Another pair of words that is visible is "Marco Rizzo" (secretary of the Communist Party) who is an Italian politician who says that the Sputnik vaccine is not possible to use in Europe because: "there is an Atlantic bloc that does not want". He has also expressed a similar opinion on other vaccines such as the Chinese one. His claims must have generated a big response on social networks and that's why we find his name in the image.
