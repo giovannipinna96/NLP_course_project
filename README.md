@@ -85,10 +85,10 @@ Now let's analyze the sentiment that has been predicted by the BERT-based neural
 We expect there to be more negatives than positives, this is because the words seen in the word cloud make us suspect about this. In addition, the tendency to complain about people on social networks is to be taken into account.
 
 <p align="center">
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment1.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment3.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment4.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment1.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment3.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment4.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
 </p>
 
 From these charts you can immediately see how much more tweets categorized as negative than positive tweets (far beyond our initial predictions). Astrazeneca was expected to have a predominance of tweets with negative sentiment. This is certainly due to all the scepticism regarding vaccines and reinforced by the fact that the first cases of thrombosis and death occurred precisely with the  Astrazeneca vaccine. The fact that the EMA and AIFA have spoken out more about this vaccine have fuelled a feeling of mistrust and fear. The change of name of the company and the vaccine change the bugiardino must  also have negatively affected public opinion.
@@ -99,10 +99,10 @@ As far as Sputnik is concerned, I expected to find more negatives by not being a
 
 
 <p align="center">
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion1.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion2.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion3.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion4.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion1.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion2.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion3.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion4.png?raw=true" alt="Sublime's custom image", width="300" height="300"/>
 </p>
 
 
@@ -112,10 +112,10 @@ Sputnik has the positive feeling" joy " in greater quantities than other vaccina
 In this section we want to analyze the words trying to understand which are the most frequent and what meaning they give to sentences. A bit like what has already been done in the section concerning the word cloud, but now taking into account fewer words, but knowing exactly their frequency.
 
 <p align="center">
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word1.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word2.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word3.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word4.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word1.png?raw=true" alt="Sublime's custom image", width="300" height="400"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word2.png?raw=true" alt="Sublime's custom image", width="300" height="400"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word3.png?raw=true" alt="Sublime's custom image", width="300" height="400"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word4.png?raw=true" alt="Sublime's custom image", width="300" height="400"/>
 </p>
 
 
