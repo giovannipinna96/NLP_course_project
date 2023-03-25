@@ -76,28 +76,55 @@ It can also be seen that though all the cleaning in the text and the selection t
 Now let's analyze the sentiment that has been predicted by the BERT-based neural network.
 We expect there to be more negatives than positives, this is because the words seen in the word cloud make us suspect about this. In addition, the tendency to complain about people on social networks is to be taken into account.
 
+
 <p align="center">
   <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment1.png?raw=true" alt="Sublime's custom image"/>
   <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image"/>
   <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment3.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment4.png?raw=true" alt="Sublime's custom image"/>
 </p>
+
 
 From these charts you can immediately see how much more tweets categorized as negative than positive tweets (far beyond our initial predictions). Astrazeneca was expected to have a predominance of tweets with negative sentiment. This is certainly due to all the scepticism regarding vaccines and reinforced by the fact that the first cases of thrombosis and death occurred precisely with the  Astrazeneca vaccine. The fact that the EMA and AIFA have spoken out more about this vaccine have fuelled a feeling of mistrust and fear. The change of name of the company and the vaccine change the bugiardino must  also have negatively affected public opinion.
 As for Pfizer we expected positive tweets to be in greater numbers than, for example Astrazeneca, but we didn't expect that many negatives. Particularly after the success of  Isdraele's vaccination campaign I thought the positive feeling was greater, not much, than the onecurrently found. Perhaps this could be due to public conditioning after the  Astrazeneca thrombosis cases. This skepticism could also be due to the fact that most people do not trust vaccines in analysis a priori since they create and distribute in few time. This is because normally for a drug it takes years for approval before it is put on the market.
 As far as Moderna is concerned, the sentiment of this vaccine is in line with expectations and perhaps also benefits from the fact that not so much is said about it compared to the other two approved by the EMA.
 As far as Sputnik is concerned, I expected to find more negatives by not being an une a approved vaccine from Russia, a state that is not transparent in common opinion and does not have much confidence for Europeans. Perhaps the fact of having a sentiment in line with other vaccines could be due to the fact that on the days of downloading tweets there was talk and pushed for it to be approved.  In the same days Spallanzani was doing the first tests with Sputnik vaccine. Another event that may have changed people's opinion a little were that some regional governors, popular among citizens, considered buying doses of the Russian vaccine, thus feeding the confidence of the population such a vaccine.
-### 5.3	Emotion Analysis    
+### 5.3	Emotion Analysis   
+
+
+<p align="center">
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion1.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion2.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion3.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion4.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 I also used emotion  analysis as evidence to really verify that negative tweets were characterized by a "negative" emotion. In fact, this statement can be immediately felt by the charts where the only positive emotion "joy" is in a clear minority compared to the others that have a more negative connotation. In particular, it is always interesting to take into account the case of Astrazeneca in which the predominant emotion are the "anger" and "fear". This is probably due to cases of thrombosis and the fact that the company has not gained the trust of citizens (e.g. change of the bugiardino, various second thoughts of the drug approval bodies and the fact that the EU now wants to proceed legally with the company for not meeting the agreements). As for Pfizer and Moderna the feeling of "fear" is higher than in Astrazeneca this perhaps because the side effects (which probably generate the emotion "anger") following the administration of these vaccines did not have the same media resonance as those of Astrazeneca, but remains the feeling of suspicion about vaccines.
 Sputnik has the positive feeling" joy " in greater quantities than other vaccinations, it may be because, as also mentioned in the previous section the vaccine was being considered for possible approval.
 ### 5.4	Most frequent  word
 In this section we want to analyze the words trying to understand which are the most frequent and what meaning they give to sentences. A bit like what has already been done in the section concerning the word cloud, but now taking into account fewer words, but knowing exactly their frequency.
+
+<p align="center">
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word1.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word2.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word3.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word4.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 Let's see how in the word cloud that the most frequent words are the names of vaccines themselves and of course the word "vaccino". Very interesting to note, which was not take in the word cloud, how the word "non" appears among the first positions in each chart and with it also the word "fare". It could be that both words appear together thus giving a negative connotation of most tweets (agree with what was analyzed before).
 You see how analyzing only single words can't capture all their meaning. In fact, in the last graph we see that the words "san" and "marino" that are analyzed separately when we know very well that it should be together. Consequently, it was also decided to analyze the frequency of bi-grams to try to extract much information as possible from the frequency of words in the corpus.
 Let's see how the word "non" often occurs near the name of a vaccine, or near the word "fare" which confirms the thesis described above. The only chart where the word "non" doesn't show up is Pfizer's chart. This is because in bi-grams  there is noise due for example to combinations with the J&J vaccine that takes several positions. In particular, if we were to take more positions we could look at the combination "pfizer  , non" (80 appearances) and "non avere"  (80 appearances) respectively in positions 17 and 18 (only the top 15 are shown in the graph).
 ## 7	Topic modelling
 To analyze the topics of the various tweets we used the LDA technique. We applied it first only on negative texts and then only on positives. So you can understand for each feeling what the latent topics in our data. Finally, we applied the technique to the entire dataset to get an overall view of the topics. 
 To choose the best  number of topics  we used  the coerence  scores techniques (UMass  and CV) with which we found that the best number of topics is in between 5 and 8 (we chose 6). After that we extracted our  descriptros. To see if these topics were more related to positives or negatives we did the aggregation based on the sentiment as you can see from the graph below.
+
+<p align="center">
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/topic_modelling.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 This figure suggests some interesting observations. 
 In particular, we see how the green topic is more present in positive observations. The words that make up this topic suggest that we talk about the Russian vaccine and how maybe it is not a good idea to vaccinate with this vaccine. It seems correct that this topic is slightly more present among the positives. The tweets will probably concern the fact that people think that the Russian vaccine is risky and that it is more appropriate to get vaccinated with another vaccine.
 The topic  identified by the blue color is most present among negatives. Reading the words describing the  topic one can say that we are talking almost unequivocally about Astrazeneca and the legal action that the EU intends to take against the company.
