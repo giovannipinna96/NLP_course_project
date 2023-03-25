@@ -76,6 +76,13 @@ It can also be seen that though all the cleaning in the text and the selection t
 Now let's analyze the sentiment that has been predicted by the BERT-based neural network.
 We expect there to be more negatives than positives, this is because the words seen in the word cloud make us suspect about this. In addition, the tendency to complain about people on social networks is to be taken into account.
 
+<p align="center">
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment1.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment3.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 From these charts you can immediately see how much more tweets categorized as negative than positive tweets (far beyond our initial predictions). Astrazeneca was expected to have a predominance of tweets with negative sentiment. This is certainly due to all the scepticism regarding vaccines and reinforced by the fact that the first cases of thrombosis and death occurred precisely with the  Astrazeneca vaccine. The fact that the EMA and AIFA have spoken out more about this vaccine have fuelled a feeling of mistrust and fear. The change of name of the company and the vaccine change the bugiardino must  also have negatively affected public opinion.
 As for Pfizer we expected positive tweets to be in greater numbers than, for example Astrazeneca, but we didn't expect that many negatives. Particularly after the success of  Isdraele's vaccination campaign I thought the positive feeling was greater, not much, than the onecurrently found. Perhaps this could be due to public conditioning after the  Astrazeneca thrombosis cases. This skepticism could also be due to the fact that most people do not trust vaccines in analysis a priori since they create and distribute in few time. This is because normally for a drug it takes years for approval before it is put on the market.
 As far as Moderna is concerned, the sentiment of this vaccine is in line with expectations and perhaps also benefits from the fact that not so much is said about it compared to the other two approved by the EMA.
