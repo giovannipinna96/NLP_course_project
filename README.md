@@ -43,6 +43,9 @@ At this point we have the dataset that has two more columns: one for sentiments 
 First we decided to see which words appear the most through a "WordCloud" representation. (In the representation " WordCloud" stopwords have not been taken into account).
 ### 5.1	WordCloud
 #### 5.1.1	Pfizer
+<p align="center">
+  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 ![alt text](https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_pfizer.png?raw=true)
 
