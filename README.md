@@ -43,6 +43,7 @@ At this point we have the dataset that has two more columns: one for sentiments 
 First we decided to see which words appear the most through a "WordCloud" representation. (In the representation " WordCloud" stopwords have not been taken into account).
 ### 5.1	WordCloud
 #### 5.1.1	Pfizer
+![alt text](https://github.com/giovannipinna96/NLP_course_project/imgs/main/imageword_cloud_pfizer.png?raw=true)
 As we can see from the image, you can immediately notice the words that are the biggest correspond to the key words in our search. This is normal because they are all words that will be present in almost every tweet. As far as Pfizer is concerned, we can see the words 'million dose' which makes clear reference to the stocks that should be coming in Italy in this period. You can also notice the names of other vaccines: Astrazeneca, Moderna and j amp j (johnson & johnson). There are no words that stand out with a clearly positive or negative connoinois. It seems that we are talking above: to do the doses, other vaccines and the arrival of a stack of a million doses.
 I think it is important to note (blue arrow) how words have also been captured concerning the progress of the pandemic and vaccination situation in other states. First of all Isdraele which to date is the state first in vaccination and which has mainly used Pfizer vaccine.
 
