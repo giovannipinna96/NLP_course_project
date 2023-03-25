@@ -43,31 +43,39 @@ At this point we have the dataset that has two more columns: one for sentiments 
 First we decided to see which words appear the most through a "WordCloud" representation. (In the representation " WordCloud" stopwords have not been taken into account).
 ### 5.1	WordCloud
 #### 5.1.1	Pfizer
+
 <p align="center">
   <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_pfizer.png?raw=true" alt="Sublime's custom image"/>
 </p>
+
 As we can see from the image, you can immediately notice the words that are the biggest correspond to the key words in our search. This is normal because they are all words that will be present in almost every tweet. As far as Pfizer is concerned, we can see the words 'million dose' which makes clear reference to the stocks that should be coming in Italy in this period. You can also notice the names of other vaccines: Astrazeneca, Moderna and j amp j (johnson & johnson). There are no words that stand out with a clearly positive or negative connoinois. It seems that we are talking above: to do the doses, other vaccines and the arrival of a stack of a million doses.
 I think it is important to note (blue arrow) how words have also been captured concerning the progress of the pandemic and vaccination situation in other states. First of all Isdraele which to date is the state first in vaccination and which has mainly used Pfizer vaccine.
 
 #### 5.1.2	Astrazeneca
+
 <p align="center">
   <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_astrazeneca.png?raw=true" alt="Sublime's custom image"/>
 </p>
+
 As for  Astrazeneca's wordcloud in addition to the words obviously present such as "Astrazeneca" and "vaccine" it can be noted that the size , and  consequently the importance of words, is sum up all the same. So as far as  Astrazeneca is concerned,  there are no possible main topics that we can immediately identify.
 In any case, a more in-depth analysis can find words that refer to negative topics such as: cases of thrombosis, side effects and legal action against the company. A few words concern the EMA and its approvals.
 #### 5.1.3	Moderna
+
 <p align="center">
   <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_moderna.png?raw=true" alt="Sublime's custom image"/>
 </p>
+
 From this image you can already see what are the most important words to which we can intuitively trace back to a positive or negative connoted.
 In particular, the words indicated by the red arrows have a negative meaning since they speak of death or diseases. Probably attributable to tweets that want to emphasize the possibility that with vaccination you can have very serious complications. 
 The green arrows, on the other hand, indicate words that are probably related to tweets of positive feeling.
 I think it is important to note (bluearrow), as in the case of Pfizer, how words have also been captured that also concern the progress of the pandemic and vaccination situation in other states. This was also expected because most of the time we talk about Pfizer and Moderna together (as we will see later on the word frequency analysis part).
 From the image you can think that there will be more tweets with a negative sentiment having managed to identify more words that lead us to think that they derive from negative tweets.
 #### 5.1.4	Sputnik
+
 <p align="center">
   <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/word_cloud_sputnik.png?raw=true" alt="Sublime's custom image"/>
 </p>
+
 From this word cloud I expected to see more words that have a negative feeling and mistrust, but surprisingly it didn't happen. In this image you can see the words "russia" and "putin" which are quite obvious given that the vaccine is Russian and the figure of Putin is linked. There are words like "comprare" that can suggest that many of the tweets are about buying this vaccine for to be able to have as many doses as possible.
 One of the words that stands out on the others is "san marino". In fact, this nation was the first in the Europe area that vaccinating its population with the Sputnik vaccine.
 Another pair of words that is visible is "Marco Rizzo" (secretary of the Communist Party) who is an Italian politician who says that the Sputnik vaccine is not possible to use in Europe because: "there is an Atlantic bloc that does not want". He has also expressed a similar opinion on other vaccines such as the Chinese one. His claims must have generated a big response on social networks and that's why we find his name in the image.
@@ -76,14 +84,12 @@ It can also be seen that though all the cleaning in the text and the selection t
 Now let's analyze the sentiment that has been predicted by the BERT-based neural network.
 We expect there to be more negatives than positives, this is because the words seen in the word cloud make us suspect about this. In addition, the tendency to complain about people on social networks is to be taken into account.
 
-
 <p align="center">
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment1.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment3.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment4.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment1.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment2.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment3.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/sentiment4.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
 </p>
-
 
 From these charts you can immediately see how much more tweets categorized as negative than positive tweets (far beyond our initial predictions). Astrazeneca was expected to have a predominance of tweets with negative sentiment. This is certainly due to all the scepticism regarding vaccines and reinforced by the fact that the first cases of thrombosis and death occurred precisely with the  Astrazeneca vaccine. The fact that the EMA and AIFA have spoken out more about this vaccine have fuelled a feeling of mistrust and fear. The change of name of the company and the vaccine change the bugiardino must  also have negatively affected public opinion.
 As for Pfizer we expected positive tweets to be in greater numbers than, for example Astrazeneca, but we didn't expect that many negatives. Particularly after the success of  Isdraele's vaccination campaign I thought the positive feeling was greater, not much, than the onecurrently found. Perhaps this could be due to public conditioning after the  Astrazeneca thrombosis cases. This skepticism could also be due to the fact that most people do not trust vaccines in analysis a priori since they create and distribute in few time. This is because normally for a drug it takes years for approval before it is put on the market.
@@ -93,10 +99,10 @@ As far as Sputnik is concerned, I expected to find more negatives by not being a
 
 
 <p align="center">
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion1.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion2.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion3.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion4.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion1.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion2.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion3.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/emotion4.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
 </p>
 
 
@@ -106,10 +112,10 @@ Sputnik has the positive feeling" joy " in greater quantities than other vaccina
 In this section we want to analyze the words trying to understand which are the most frequent and what meaning they give to sentences. A bit like what has already been done in the section concerning the word cloud, but now taking into account fewer words, but knowing exactly their frequency.
 
 <p align="center">
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word1.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word2.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word3.png?raw=true" alt="Sublime's custom image"/>
-  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word4.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word1.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word2.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word3.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
+  <img src="https://github.com/giovannipinna96/NLP_course_project/blob/main/imgs/frequent_word4.png?raw=true" alt="Sublime's custom image", width="500" height="600"/>
 </p>
 
 
